@@ -33,7 +33,7 @@ public class Parcialllll {
         System.out.println("Extracto bancario");  
         banco1.addCuenta(cuenta1);
         banco1.addCuenta(cuenta2);
-        ArrayList<Cuenta>cuentas=banco1.getComptes();
+      /* ArrayList<Cuenta>cuentas=banco1.getComptes();
         
         for(Cuenta c:cuentas){
             System.out.println("Numero de cuenta: "+c.getNumeroCompte());
@@ -50,8 +50,12 @@ public class Parcialllll {
             }
         
         }
-        
-        
+        */
+      
+      /*al indicar que se debe hacer un metodo para listar la informacion de todas las cuentas decidi ponerlo en la clase bancos que conoce toda la informacion necesaria, sin embargo no se si para
+      este ejercicio aplique la logica del negocio apartada de el funcionamiento de las clases, se puede ver que el funcionamiento es el mismo que si yo aplico los extractos desde el main
+      */
+        banco1.Extracto();
         
     }
     
